@@ -524,9 +524,6 @@ body {
     text-align: center;
     padding-bottom: 30px;
   }
-  .row__subtitle {
-    font-size: 20px;
-  }
 }
 
 @media (max-width: 500px) {
