@@ -281,6 +281,15 @@ body {
   height: 300px;
   border-radius: 10px;
 }
+#more {
+  display: none;
+}
+#btn {
+  background: none;
+  color: #fff;
+  font-size: 23px;
+  font-weight: bold;
+}
 .delivery__text {
   max-width: 900px;
 }
@@ -439,8 +448,6 @@ body {
   box-shadow: 1px 2px 7px 3px #a62121;
   z-index: 1;
   }
- 
- 
 .menu {
   position: fixed;
   display: block;
