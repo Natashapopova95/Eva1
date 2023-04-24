@@ -298,14 +298,10 @@ body {
   font-weight: bold;
 }
 .prices__class {
-  padding: 100px 0;
+  padding-top: 60px;
   
 }
-.prices__class p {
-  font-size: 37px;
-  text-align: center;
-  line-height: 50px;
-}
+
 .prices__subtitle {
   text-align: center;
   line-height: 50px;
@@ -558,6 +554,12 @@ body {
 @media (max-width: 700px) {
   .advantage {
    display: none;
+  }
+
+  .prices__subtitle {
+    text-align: center;
+    line-height: 42px;
+    font-size: 27px; 
   }
 }
 
