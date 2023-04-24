@@ -419,7 +419,7 @@ body {
   background-attachment: fixed;
   position: relative;
   justify-content: center;
-  background-image: url("/images/delivery_img.jpg");
+  background-image: url("../images/delivery_img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
