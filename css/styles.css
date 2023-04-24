@@ -569,12 +569,16 @@ body {
   align-items: center;
   row-gap: 50px;
 }
+.delivery1__wrapper {
+  column-gap: 60px;
+}
+
+.delivery1__item p {
+  font-size: 14px;
+}
 }
 
 @media (max-width: 800px) {
-  .delivery1__wrapper {
-    column-gap: 60px;
-  }
   .row__inner {
       margin: 0;
     }
@@ -684,6 +688,16 @@ body {
       margin-left: 37px;
       margin-bottom: 50px;
     }
+    .delivery1__wrapper {
+      flex-wrap: wrap;
+    }
+    .delivery1 {   
+     padding: 39px 0; 
+    }
+    .delivery1__colomn {
+    text-align: center;
+    margin-bottom: 22px;
+  }
 }
 
 @media (max-width: 400px) {
