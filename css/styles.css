@@ -397,6 +397,13 @@ body {
   height: 40px;
   column-gap: 40px;
 }
+.map {
+  width: 500px;
+  height: 400px;
+}
+[class*="copyrights-pane"] {
+  display: none !important;
+}
 .delivery__images__none {
   display: none;
 }
