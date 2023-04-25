@@ -449,6 +449,25 @@ body {
   color: aliceblue;
   font-weight: bold;
 }
+
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-y: auto;
+}
+.parallax-layer {
+  position: absolute;
+  inset: 0;
+}
+.parallax-image {
+  transform: translateZ(0);
+}
+
+.parallax-text {
+  transform: translateZ(-2px);
+}
+
 /**************@media*************************/
 
 @media (max-width: 1050px) {
@@ -627,6 +646,7 @@ body {
       background-blend-mode: multiply;
       padding: 100px 0;
     }
+
 }
 
 @media (max-width: 500px) {
