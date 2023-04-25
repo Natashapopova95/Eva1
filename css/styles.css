@@ -626,6 +626,25 @@ body {
   }
 }
 
+img {
+  @media(max-width: 768px) {
+    height: calc(100% + 300px);
+    object-fit: cover;
+  }
+}
+
+
+.parallax-text {
+  font-size: 72px;
+  color: #cde4f7;
+  transform: translateZ(-2px) translateX(100px) translateY(300px) scale(3);
+
+  @media (max-width: 768px) {
+    font-size: 62px;
+    transform: translateZ(-2px) translateX(20px) translateY(300px) scale(3);
+  }
+}
+
 @media (max-width: 700px) {
   .advantage {
    display: none;
