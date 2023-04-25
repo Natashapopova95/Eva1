@@ -93,10 +93,6 @@ body {
   font-weight: 400;
   line-height: 21px;
   font-family: 'El Messiri', sans-serif;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .header {
@@ -454,18 +450,10 @@ body {
 .parallax {
   perspective: 1px;
   height: 100vh;
-  overflow-y: auto;
 }
 .parallax-layer {
   position: absolute;
   inset: 0;
-}
-.parallax-image {
-  transform: translateZ(0);
-}
-
-.parallax-text {
-  transform: translateZ(-2px);
 }
 
 /**************@media*************************/
@@ -626,25 +614,6 @@ body {
   }
 }
 
-img {
-  @media(max-width: 768px) {
-    height: calc(100% + 300px);
-    object-fit: cover;
-  }
-}
-
-
-.parallax-text {
-  font-size: 72px;
-  color: #cde4f7;
-  transform: translateZ(-2px) translateX(100px) translateY(300px) scale(3);
-
-  @media (max-width: 768px) {
-    font-size: 62px;
-    transform: translateZ(-2px) translateX(20px) translateY(300px) scale(3);
-  }
-}
-
 @media (max-width: 700px) {
   .advantage {
    display: none;
@@ -655,17 +624,6 @@ img {
     line-height: 42px;
     font-size: 27px; 
   }
-    .delivery1 {
-      max-width: 100%;
-      background-image: url("../images/deliveryMobil_img.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: #555556;
-      background-blend-mode: multiply;
-      padding: 100px 0;
-    }
-
 }
 
 @media (max-width: 500px) {
