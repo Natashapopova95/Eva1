@@ -416,6 +416,8 @@ body {
 
 .delivery1 {
   max-width: 100%;
+  background-attachment: fixed;
+  position: relative;
   background-image: url("../images/delivery_img.jpg");
   background-position: center;
   background-repeat: no-repeat;
