@@ -412,8 +412,6 @@ body {
 
 .delivery1 {
   max-width: 100%;
-  background-attachment: fixed;
-  position: relative;
   background-image: url("../images/delivery_img.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -422,9 +420,6 @@ body {
   background-blend-mode: multiply;
   padding: 100px 0;
 }
-
-
-
 .delivery1__wrapper {
   display: flex;
   align-items: center;
@@ -445,17 +440,6 @@ body {
   color: aliceblue;
   font-weight: bold;
 }
-
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-}
-.parallax-layer {
-  position: absolute;
-  inset: 0;
-}
-
 /**************@media*************************/
 
 @media (max-width: 1050px) {
