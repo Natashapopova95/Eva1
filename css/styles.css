@@ -416,9 +416,6 @@ body {
 
 .delivery1 {
   max-width: 100%;
-  background-attachment: fixed;
-  position: relative;
-  justify-content: center;
   background-image: url("../images/delivery_img.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -619,19 +616,7 @@ body {
     font-size: 27px; 
   }
 
-    .delivery1 {
-      max-width: 100%;
-      background-attachment: fixed;
-      position: relative;
-      justify-content: center;
-      background-image: url("../images/deliveryMobil_img.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: #555556;
-      background-blend-mode: multiply;
-      padding: 100px 0;
-    }
+    
 }
 
 @media (max-width: 500px) {
