@@ -302,7 +302,7 @@ body {
   background: #222324;
   background: -webkit-linear-gradient(top, #222324, #792A28);
   background: -moz-linear-gradient(top, #222324, #792A28);
-  background: linear-gradient(to bottom, #222324, #792A28); 
+  background: linear-gradient(to bottom, #222324, #792A28);
 }
 
 .prices__subtitle {
