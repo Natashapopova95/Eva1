@@ -443,6 +443,10 @@ body {
 /**************@media*************************/
 
 @media (max-width: 1050px) {
+  .delivery1 {
+    background-attachment: scroll;
+  }
+  
 .menu-burger__header {
   position: relative;
   width: 40px;
