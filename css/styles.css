@@ -443,6 +443,13 @@ body {
   color: aliceblue;
   font-weight: bold;
 }
+.delivery1__img {
+  width: 150px;
+  height: 80px;
+}
+.images {
+  height: 70px;
+}
 /**************@media*************************/
 
 @media (max-width: 1050px) {
